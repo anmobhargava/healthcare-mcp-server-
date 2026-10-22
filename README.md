@@ -12,7 +12,7 @@ Give it a drug name. It:
 3. lists the server's tools and hands them to the model as OpenAI functions,
 4. loops: the model asks for tools, I run them over MCP, results go back, until it writes the brief.
 
-Tool errors go back to the model as text, so it can try again. With no `OPENAI_API_KEY` an offline stand-in follows the same steps and writes the brief from the results, so everything runs for free. It isn't a language model. The model name is in the file; check it is the one you want.
+
 
 ## What a client sees
 
